@@ -1,0 +1,114 @@
+
+div {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+style{
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  width: calc(50% - 100px); /* Ancho del 33.33% del contenedor y un pequeño espacio entre los elementos */
+  margin: 10px 5px; /* Margen vertical de 10px y margen horizontal de 5px */
+  margin-left: 3%;
+  padding: 20px;
+  background-color: #91cd42;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 5px 0;
+}
+
+#botonL{
+  margin-top: 8px;
+  border-radius: 25px;
+  width: 200px;
+  height: 50px;
+  background-color:rgb(202, 209, 66);
+  border: solid 1.8px;
+  font-weight: bold;
+  color:black
+}
+
+#cabecera{
+  background-color: #91cd42;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#buscar{
+  size: 50%;
+  border-radius: 45px;
+}
+
+#orde{
+  margin: 0 7px;
+}
+
+#recetas{
+  background-color: #91cd42;
+
+}
+
+button {
+  padding: 10px 20px;
+  background-color: rgb(202, 209, 66);
+  color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin: 0 7px;
+  margin-top: 3%;
+}
+
+button:hover {
+  background-color:black;
+}
+
+button:active {
+  background-color:black;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px; /* Espacio entre los botones */
+}
